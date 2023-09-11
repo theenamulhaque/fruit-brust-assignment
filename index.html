@@ -11,6 +11,9 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+      <!-- fontawesome link -->
+      <script src="https://kit.fontawesome.com/e3e99621fe.js" crossorigin="anonymous"></script>
       
       <!-- Custom Color -->
       <script>
@@ -35,6 +38,46 @@
       <title>Fruit Brust</title>
 </head>
 <body class="latoFont">
+      <header class="container mx-auto">
+            <div class="navbar bg-[#F85559] rounded-full px-7 mt-10">
+                  <div class="navbar-start">
+                    <div class="dropdown">
+                      <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                      </label>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Item 1</a></li>
+                        <li>
+                          <a>Parent</a>
+                          <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                          </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- desktop -->
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                          <li class="text-white"><a>Home</a></li>
+                          <li class="text-white"><a>About Us</a></li>
+                          <li class="text-white"><a>Shop</a></li>
+                          <li class="text-white"><a>All Fruits</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="flex justify-center items-center w-96 gap-3">
+                        <img src="images/logo.png" alt="">
+                        <h4 class="text-2xl font-bold text-white">Fruit Burst</h4>
+                  </div>
+                  <div class="navbar-end relative">
+                        <input type="text" placeholder="Search here..." class="input input-bordered w-full max-w-xs rounded-full" />
+                        <i class="fa-solid fa-magnifying-glass absolute pr-4"></i>
+                  </div>
+                </div>
+      </header>
 
       
 </body>
