@@ -11,6 +11,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
       <!-- fontawesome link -->
       <script src="https://kit.fontawesome.com/e3e99621fe.js" crossorigin="anonymous"></script>
@@ -264,6 +265,207 @@
             </section>
              <!-------------------------
             Deal of the day section end
+            ----------------------------->
+            <!-------------------------
+            Shop card section start
+            ----------------------------->
+              <section class="grid grid-cols-1 md:grid-cols-4 gap-6">
+
+                  <!-- card-1 -->
+                  <div class="card bg-base-100 border-[1px] border-[#e9e9e9] rounded-lg">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <div class="w-full h-[0.1px] bg-[#dddddd] my-6"></div>
+                      <p class="mb-2">Apples</p>
+
+                      <div class="rating mb-6">
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star-half text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                      </div>
+
+                      <div class="card-actions">
+                        <button class="text-[#F85559] font-semibold" onclick="my_modal_1.showModal()">Details</button>
+                      </div>
+                    </div>
+                    <!-- modal Open Box start -->
+                    <dialog id="my_modal_1" class="modal flex justify-center items-center">
+                      <div class="modal-box text-center flex-col justify-around items-center mx-auto rounded-3xl">
+                        <img src="images/fruit6.png" alt="" class="flex justify-around items-center mx-auto">
+                        <div class="text-center">
+                          <h2 class="card-title text-center justify-around mx-auto text-4xl mt-6">Apples</h2>
+                        </div>
+                        <p class="my-8 text-sm">The apple is one of the pome (fleshy) fruits. Apples at harvest vary widely in size, shape, colour, and acidity, but most are fairly round and some shade of red or yellow. </p>
+                        <div class="rating mb-6">
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                          <i class="fa-solid fa-star-half text-orange-600"></i>
+                          <i class="fa-regular fa-star text-orange-600"></i>
+                          <i class="fa-regular fa-star text-orange-600"></i>
+                      </div>
+
+                        <div class="modal-action flex justify-around items-center">
+                          <form method="dialog" class="flex justify-center items-center gap-5">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn btn-outline border-[#F85559] text-[#F85559] flex justify-around items-center rounded-lg">Close</button>
+                            <button class="btn bg-[#F85559] text-white flex justify-around items-center rounded-lg">Buy Now</button>
+                          </form>
+                        </div>
+                      </div>
+                    </dialog>
+                    <!-- modal Open Box end -->
+                  </div>
+
+                  <!-- card-2 -->
+                  <div class="card bg-base-100 border-[1px] border-[#e9e9e9] rounded-lg">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">14.90$ - 20.85$</h2>
+                      <div class="w-full h-[0.1px] bg-[#dddddd] my-6"></div>
+                      <p class="mb-2">Orange</p>
+                      <div class="rating mb-6">
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star-half text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                      </div>
+
+                      <div class="card-actions">
+                        <button class="text-[#F85559] font-semibold" onclick="my_modal_2.showModal()">Details</button>
+                      </div>
+                    </div>
+                    <!-- modal Open Box start -->
+                    <dialog id="my_modal_2" class="modal flex justify-center items-center">
+                      <div class="modal-box text-center flex-col justify-around items-center mx-auto rounded-3xl">
+                        <img src="images/fruit7.png" alt="" class="flex justify-around items-center mx-auto">
+                        <div class="text-center">
+                          <h2 class="card-title text-center justify-around mx-auto text-4xl mt-6">Orange</h2>
+                        </div>
+                        <p class="my-8 text-sm">The orange is a usually round or oval citrus; its rind and flesh are generally orange, except the varieties of red pulp. The edible part of the orange is the flesh, consumed in fresh or in juice.  </p>
+                        <div class="rating mb-6">
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                          <i class="fa-solid fa-star-half text-orange-600"></i>
+                          <i class="fa-regular fa-star text-orange-600"></i>
+                        </div>
+                        <div class="modal-action flex justify-around items-center">
+                          <form method="dialog" class="flex justify-center items-center gap-5">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn btn-outline border-[#F85559] text-[#F85559] flex justify-around items-center rounded-lg">Close</button>
+                            <button class="btn bg-[#F85559] text-white flex justify-around items-center rounded-lg">Buy Now</button>
+                          </form>
+                        </div>
+                      </div>
+                    </dialog>
+                    <!-- modal Open Box end -->
+                  </div>
+
+                  <!-- card-3 -->
+                  <div class="card bg-base-100 border-[1px] border-[#e9e9e9] rounded-lg">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">33.90$ - 50.85$</h2>
+                      <div class="w-full h-[0.1px] bg-[#dddddd] my-6"></div>
+                      <p class="mb-2">Red Dragon</p>
+                      <div class="rating mb-6">
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star-half text-orange-600"></i>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-[#F85559] font-semibold" onclick="my_modal_3.showModal()">Details</button>
+                      </div>
+                    </div>
+                    <!-- modal Open Box start -->
+                    <dialog id="my_modal_3" class="modal flex justify-center items-center">
+                      <div class="modal-box text-center flex-col justify-around items-center mx-auto rounded-3xl">
+                        <img src="images/fruit8.png" alt="" class="flex justify-around items-center mx-auto">
+                        <div class="text-center">
+                          <h2 class="card-title text-center justify-around mx-auto text-4xl mt-6">Red Dragon</h2>
+                        </div>
+                        <p class="my-8 text-sm">It can strengthen your immune system. Dragon fruit is high in vitamin C and other antioxidants, which are good for your immune system. It can boost your iron levels.</p>
+                        <div class="rating mb-6">
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star-half text-orange-600"></i>
+                        </div>
+                        <div class="modal-action flex justify-around items-center">
+                          <form method="dialog" class="flex justify-center items-center gap-5">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn btn-outline border-[#F85559] text-[#F85559] flex justify-around items-center rounded-lg">Close</button>
+                            <button class="btn bg-[#F85559] text-white flex justify-around items-center rounded-lg">Buy Now</button>
+                          </form>
+                        </div>
+                      </div>
+                    </dialog>
+                    <!-- modal Open Box end -->
+                  </div>
+
+                  <!-- card-4 -->
+                  <div class="card bg-base-100 border-[1px] border-[#e9e9e9] rounded-lg">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">12.90$ - 18.85$</h2>
+                      <div class="w-full h-[0.1px] bg-[#dddddd] my-6"></div>
+                      <p class="mb-2">Banana</p>
+                      <div class="rating mb-6">
+                        <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star-half text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                      </div>
+                      <div class="card-actions">
+                        <button class="text-[#F85559] font-semibold" onclick="my_modal_4.showModal()">Details</button>
+                      </div>
+                    </div>
+                    <!-- modal Open Box start -->
+                    <dialog id="my_modal_4" class="modal flex justify-center items-center">
+                      <div class="modal-box text-center flex-col justify-around items-center mx-auto rounded-3xl">
+                        <img src="images/fruit9.png" alt="" class="flex justify-around items-center mx-auto">
+                        <div class="text-center">
+                          <h2 class="card-title text-center justify-around mx-auto text-4xl mt-6">Banana</h2>
+                        </div>
+                        <p class="my-8 text-sm">Bananas contain essential nutrients that may enhance heart health, help manage blood pressure, and boost a person's mood, among other benefits. </p>
+                        <div class="rating mb-6">
+                          <i class="fa-solid fa-star text-orange-600"></i>
+                        <i class="fa-solid fa-star-half text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                        <i class="fa-regular fa-star text-orange-600"></i>
+                        </div>
+                        <div class="modal-action flex justify-around items-center">
+                          <form method="dialog" class="flex justify-center items-center gap-5">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn btn-outline border-[#F85559] text-[#F85559] flex justify-around items-center rounded-lg">Close</button>
+                            <button class="btn bg-[#F85559] text-white flex justify-around items-center rounded-lg">Buy Now</button>
+                          </form>
+                        </div>
+                      </div>
+                    </dialog>
+                    <!-- modal Open Box end -->
+                  </div>
+
+              </section>
+            <!-------------------------
+            Shop card section end
             ----------------------------->
       </main>
 
